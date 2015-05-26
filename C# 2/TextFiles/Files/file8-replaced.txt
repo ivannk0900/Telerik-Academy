@@ -1,0 +1,6 @@
+this file is concerned about eight problem which will have to replace whole words with new words.
+in my case it replaces the wordstart with the wordfinish
+the next few lines are just for testing...
+finish finish - this will have to be replaced
+startstart  - won't be replaced
+starts - won't be replaced

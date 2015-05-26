@@ -1,0 +1,2 @@
+batman: 3
+superman: 1
