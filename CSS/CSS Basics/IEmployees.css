@@ -1,0 +1,43 @@
+th {
+	background-color: #00FF00;
+	font-weight: normal;
+	color: white;
+	text-align: left;
+}
+td, th {
+	padding: 5px;
+	
+}
+
+tbody tr:nth-child(2n+1) {
+	background-color: white;
+}
+
+tbody tr:nth-child(2n) {
+	background-color: #ececd8;
+}
+
+th {
+	border-left: 1px solid #407f29;
+	border-bottom: 1px solid #407f29;
+}
+
+table {
+	border: 1px solid #d5d4c2;
+}
+
+.name {
+	width:140px;
+}
+
+.input {
+	text-align: left;
+	width: 90px;
+}
+
+.flag {
+	width: 22px;
+}
+.country {
+	width: 110px;
+}

@@ -1,0 +1,126 @@
+#nav {
+	float: left;
+	width: 170px;
+}
+body {
+	background-color: #F2F2F2;
+}
+aside>div>div>a {
+	display: block;
+	text-align: center;
+	color: #B40404;
+	padding: 2px;
+}
+h1 {
+	font-family: "Arial";
+	
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.listTitle {
+	display: inline;
+	color: #B40404;
+	font-family: "Consolas";
+	font-weight: bold;
+}
+
+nav>img {
+	display: inline;
+}
+
+ul>li>a {
+	text-decoration: none;
+	color: black;
+	font-family: "Consolas";
+	font-size: 15px;
+}
+
+#central {
+	border: 1px solid gray;
+}
+h2 {
+	font-family: "Arial";
+}
+section {
+    float: left;
+    width: 930px;
+    margin: 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #868686;
+}
+
+button {
+    width: 130px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+.topicLine {
+	background-color: gray;
+	border: 1px solid gray;
+	color:white;
+	font-family: "Verdana";
+}
+article>p>img {
+	display: inline;
+}
+.link {
+	color: #B40404;
+}
+#description {
+	display: inline;
+	float: right;
+	margin: 4px;
+	font-family: "Verdana";
+	font-weight: bold;
+	font-size: 12px;
+}
+h2 {
+	background-color: gray;
+	border: 1px solid gray;
+	color:white;
+	font-family: "Verdana";
+	font-size: 12px;
+	margin:0;
+
+}
+
+#right {
+	float: right;
+	width: 205px;
+}
+
+#search {
+
+	width: 25px;
+	border-radius: 5px;
+	background: #BDBDBD;
+}
+.art {
+	border: 1px solid gray;
+	margin-bottom: 2px;
+}
+
+#searchField {
+	display: inline-block;
+	width: 150px;
+	margin: 6px;
+	margin-left: 14px;
+}
+
+#grad {
+	border: 1px solid gray;
+	  width: 100px;
+  height: 30px;
+  margin-left: 50px;
+  margin-top:3px;
+  background: url(styles.png);
+ 
+}
+

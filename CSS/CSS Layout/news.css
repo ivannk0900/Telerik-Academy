@@ -1,0 +1,56 @@
+body {
+	background-color: #1E3741;
+	color: #848484;
+	font-family: "Arial";
+}
+
+#header {
+	margin: 10px;
+	margin-left: initial;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #088A85;
+	border: 0;
+}
+
+#header > div {
+	display: inline-block;
+	margin-left: -2px;
+}
+#header div button:hover {
+	text-decoration: underline;
+	 cursor: pointer;
+        background-color: #465F69;
+}
+
+#section>div {
+	border-bottom: 1px solid gray;
+	font-size: 16px;
+	padding: 6px;
+	padding-left: initial;
+}
+
+#section {
+	width: 260px;
+	display: inline-block;
+}
+
+#news {
+	background-color: #04B486;
+	color: #fff;
+	font-family: "Arial";
+	height: 24px;
+	padding-top: 13px !important;
+	border: none !important;
+}
+
+aside {
+	position: relative;
+	display: inline-block;
+	top:-33px;
+}

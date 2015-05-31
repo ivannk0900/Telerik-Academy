@@ -1,0 +1,91 @@
+.macbook {
+	width: 235px;
+	height: 130px;
+	display:inline-block;
+	margin-top: -60px;
+
+}
+#brands a {
+	display: inline-block;
+	text-align: center;
+	color: #01DFD7;
+}
+hr {
+	color: black;
+}
+#brands {
+	display:inline-block;
+	position: relative;
+	left: 300px;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px;
+	
+}
+#outBorder {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	width: 850px;
+	height: 595px;
+}
+
+.inputs {
+	float: right;
+	width: 220px;
+	font-family: "Candara";
+	font-weight: bold;
+	font-size: 20px;
+}
+#models {
+	display: inline-block;
+	border:1px solid black;
+	margin: 0;
+	padding-top: 60px;
+	width: 560px;
+	height: 455px;
+	display: block;
+	float: left;
+}
+
+.img {
+	display: block;
+	padding: 5px;
+}
+
+.price {
+	position: relative;
+	font-family: "Candara";
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px;
+}
+.ram {
+	position: relative;
+	top:-105px;
+	left:125px;
+	font-family: "Candara";
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.hard {
+	position: relative;
+	top:-110px;
+	left:125px;
+	font-family: "Candara";
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.cpu {
+	position: relative;
+	top:-100px;
+	left:125px;
+	font-family: "Candara";
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px;
+}

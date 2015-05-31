@@ -1,0 +1,80 @@
+body {
+	background-color: #D1C8C8;
+}
+
+h1 {
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom:  40px;
+	font-family: "Arial";
+}
+.bold {
+	font-weight: bold;
+}
+.picture {
+	display: inline;
+	padding: 15px;
+
+}
+
+.song {
+	
+	max-width: 450px;
+	max-height: 120px;
+	background-color: white;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: 1px solid gray;
+
+}
+
+.info {
+	font-size: 15px;
+	display: inline-block;
+	float: right;
+	width: 240px;
+	padding-right: 30px;
+	margin-bottom: 2px;
+	vertical-align: top;
+
+
+	border: 1px;
+
+}
+
+.buttonL {
+	width: 80px;
+	height: 25px;
+	background-image: url("button.png");
+	background-repeat: no-repeat;
+	color: #fff;
+	     border: 2px ridge rgba(138, 0, 0, 0.6);
+}
+.buttonA {
+	width: 60px;
+	height: 25px;
+		background-image: url("button.png");
+	background-repeat: no-repeat;
+	color: #fff;
+			     border: 2px ridge rgba(138, 0, 0, 0.6);
+}
+.button1, .button2 {
+	display: inline;
+	position: relative;
+	top:-40px;
+	left: 282px;
+}
+	/*
+	position: fixed;
+	top:155px;
+	left: 275px;
+
+}
+
+.button2 {
+	position: fixed;
+	top:155px;
+	left: 330px;
+}
+

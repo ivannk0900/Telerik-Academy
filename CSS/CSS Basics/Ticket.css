@@ -1,0 +1,37 @@
+body {
+	background-color: #595959;	
+	color: #bbbbbb;
+}
+
+thead th {
+
+	font-size: 20px;
+	text-decoration: none;
+	text-align: left;
+	font-weight: normal;
+}
+
+td, th {
+	padding: 8px;
+	vertical-align: top;
+}
+
+.whiteEm {
+	width: 11em;
+	color: white;
+	font-style: italic;
+}
+
+.whiteInfo {
+	color: white;
+}
+
+.red {
+	color: red;
+	font-weight: bold;
+}
+.orange {
+
+	color: orange;
+	font-weight: bold;
+}
