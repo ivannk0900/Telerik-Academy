@@ -1,0 +1,116 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3188,        107]
+NotebookOptionsPosition[      2837,         90]
+NotebookOutlinePosition[      3179,        105]
+CellTagsIndexPosition[      3136,        102]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"p", "[", "x_", "]"}], " ", "=", " ", 
+    RowBox[{
+     RowBox[{"ax", "^", "4"}], " ", "+", " ", 
+     RowBox[{"bx", "^", "3"}], " ", "+", " ", 
+     RowBox[{"cx", "^", "2"}], " ", "+", " ", "dx", " ", "+", " ", "e"}]}], 
+   ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"e", " ", "==", " ", "1"}], ",", " ", 
+      RowBox[{"d", " ", "==", " ", "0"}], ",", " ", 
+      RowBox[{
+       RowBox[{
+       "a", " ", "+", " ", "b", " ", "+", " ", "c", " ", "+", " ", "d", " ", 
+        "+", " ", "e"}], " ", "==", " ", "2"}], ",", " ", "\n", "  ", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"4", " ", "a"}], " ", "+", " ", 
+        RowBox[{"3", " ", "b"}], " ", "+", " ", 
+        RowBox[{"2", " ", "c"}], " ", "+", " ", "d"}], " ", "==", " ", "6"}], 
+      ",", " ", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"16", " ", "a"}], " ", "+", " ", 
+        RowBox[{"8", " ", "b"}], " ", "+", " ", 
+        RowBox[{"4", " ", "c"}], " ", "+", " ", 
+        RowBox[{"2", " ", "d"}], " ", "+", " ", "e"}], " ", "==", " ", "\n", 
+       "21"}]}], "}"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{
+     "a", ",", " ", "b", ",", " ", "\n", "  ", "c", ",", " ", "d", ",", " ", 
+      "e"}], "}"}]}], "]"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{"p", "[", "x", "]"}], " ", "=", " ", 
+  RowBox[{
+   RowBox[{"4", " ", 
+    RowBox[{"x", "^", "3"}]}], " ", "-", " ", 
+   RowBox[{"3", " ", 
+    RowBox[{"x", "^", "2"}]}], " ", "+", " ", "1"}]}]}], "Input",
+ CellChangeTimes->{{3.6588473536842146`*^9, 3.6588473536842146`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"a", "\[Rule]", "0"}], ",", 
+    RowBox[{"b", "\[Rule]", "4"}], ",", 
+    RowBox[{"c", "\[Rule]", 
+     RowBox[{"-", "3"}]}], ",", 
+    RowBox[{"d", "\[Rule]", "0"}], ",", 
+    RowBox[{"e", "\[Rule]", "1"}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{{3.6588473580462227`*^9, 3.6588473640287313`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"1", "-", 
+  RowBox[{"3", " ", 
+   SuperscriptBox["x", "2"]}], "+", 
+  RowBox[{"4", " ", 
+   SuperscriptBox["x", "3"]}]}]], "Output",
+ CellChangeTimes->{{3.6588473580462227`*^9, 3.658847364038731*^9}}]
+}, Open  ]]
+},
+WindowSize->{707, 505},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"8.0 for Microsoft Windows (64-bit) (November 7, 2010)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 1639, 45, 172, "Input"],
+Cell[2221, 69, 373, 10, 30, "Output"],
+Cell[2597, 81, 224, 6, 30, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
