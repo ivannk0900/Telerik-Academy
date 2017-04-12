@@ -12,9 +12,11 @@ namespace Sort
             //var sorter = new SelectionSorter<int>();
             //sorter.Sort(myList);
 
-            var quickSorter = new Quicksorter<int>();
-            quickSorter.Sort(myList);
+            //var quickSorter = new Quicksorter<int>();
+            //quickSorter.Sort(myList);
 
+            var mergeSorter = new MergeSorter<int>();
+            mergeSorter.Sort(myList);
 
 
             foreach (var el in myList)
